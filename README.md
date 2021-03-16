@@ -1,0 +1,37 @@
+- How the build environment works
+    - Linux Environment
+        - ssh, navigate, gcc, make, etc.
+        - gcc makes .o files
+        - a.out file
+    - Cpp file
+        - <iostream> is a standard directory for printing
+            - No functions are built into C
+                - Import everything
+                - There are libraries builtin
+                    - but you have to include them at the top of the file
+        - Hello world
+        - programs start at main() function
+    - Multiple Functions in Cpp file
+        - Hello world part 2
+        - programs start at main, but you can call other functions in main
+    - Header File
+        - Hello Universe
+        - How to connect extra files
+            - change in gcc compiler functions (make file support) 
+            - define functions in other files
+        - #include pre-processor code
+        - How you include code libraries
+            - <> is for standard and “” is for user defined
+            - ^ technically the same, just a formality
+- Functional Programming
+    - Data types
+        - Variable
+            - store data
+            - all data has a type
+            - data types let compiler know what to do with the data and how to store data
+                - for ex.:
+                    - int = 4B
+                    - float = 4B (floating point aka number with a decimal point)
+                    - double = 8B (double length float aka stores more decimal points higher precision)
+                    - char = 1B
+                    - bool = 1B (boolean which is True or False)
