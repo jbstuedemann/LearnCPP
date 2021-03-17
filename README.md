@@ -23,15 +23,51 @@
         - How you include code libraries
             - <> is for standard and “” is for user defined
             - ^ technically the same, just a formality
-- Functional Programming
+- Functions
     - Data types
-        - Variable
+        - Variables
             - store data
             - all data has a type
             - data types let compiler know what to do with the data and how to store data
-                - for ex.:
-                    - int = 4B
-                    - float = 4B (floating point aka number with a decimal point)
-                    - double = 8B (double length float aka stores more decimal points higher precision)
-                    - char = 1B
-                    - bool = 1B (boolean which is True or False)
+        - Types
+            - int = 4B
+            - float = 4B (floating point aka number with a decimal point)
+            - double = 8B (double length float aka stores more decimal points higher precision)
+            - char = 1B
+            - bool = 1B (boolean which is True or False)
+    - Operators
+        - +
+            - Addition
+        - -
+            - Subtraction
+        - *
+            - Multiplication
+        - /
+            - Division
+        - %
+            - Mod (Remainder)
+        - ==
+            - equals
+        - !=
+            - not equals
+        - < (and <=)
+            - less than (or equal to)
+        - > (and >=)
+            - greater than (or equal to)
+        - ||
+            - OR
+        - &&
+            - AND
+        - !
+            - NOT
+        - (condition a) ? (b) : (c)
+            - if condition a, use b. Else use c
+            - ex (1==1) ? 5 : 4
+                - expression will equal 5
+            - ex (1==0) ? 5 : 4
+                - expression will equal 4
+        - incremental
+            - ++ (--)
+            - += (-=)
+            - *= (/=, %=)
+    - Loops

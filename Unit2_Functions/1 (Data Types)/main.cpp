@@ -1,5 +1,7 @@
 #include <iostream>
 
+//ignore these 3 lines
+typedef unsigned long long DATATYPE;
 void function1();
 void function2();
 
@@ -26,13 +28,13 @@ int main(void) {
 /*
 Excercise 1:
     - finish the function to multiply numbers together
-    - replace DATATYPE with the correct data type
+    - replace DATATYPE with the correct data type (it will compile, but not work properly)
 */
 void function1() {
     std::cout << "Function 1: ";
 
-    double x = 10.0;
-    double y = 10.01;
+    DATATYPE x = 10.0;
+    DATATYPE y = 10.01;
 
     std::cout << (x * y) << std::endl;
 }
