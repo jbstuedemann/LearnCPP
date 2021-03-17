@@ -5,12 +5,15 @@ void function2();
 
 int main(void) {
     
+    ///
+    // Read the following and try to predict what the output will be.
+
     std::cout << "Numeric: " << std::endl;
-    std::cout << "\tAddition:       " << 5 + 10 << std::endl;
-    std::cout << "\tSubtraction:    " << 10 - 5 << std::endl;
-    std::cout << "\tMultiplication: " << 5 * 10 << std::endl;
-    std::cout << "\tDivision:       " << 15.0 / 4.0 << std::endl;
-    std::cout << "\tModulus:        " << 21 % 6 << std::endl;
+    std::cout << "\tAddition:            " << 5 + 10 << std::endl;
+    std::cout << "\tSubtraction:         " << 10 - 5 << std::endl;
+    std::cout << "\tMultiplication:      " << 5 * 10 << std::endl;
+    std::cout << "\tDivision:            " << 15.0 / 4.0 << std::endl;
+    std::cout << "\tModulus (Remainder): " << 21 % 6 << std::endl;
     
     std::cout << "Boolean (0 is false, 1 is true): " << std::endl;
     std::cout << "\tEquals:        " << (1 == 1) << std::endl;
@@ -36,6 +39,7 @@ int main(void) {
     x %= 3;
     std::cout << "\tx %= 3:  " << x << std::endl;
 
+    ///
     //Excercises:
     function1();
     function2();

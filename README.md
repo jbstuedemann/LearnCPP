@@ -23,7 +23,7 @@
         - How you include code libraries
             - <> is for standard and “” is for user defined
             - ^ technically the same, just a formality
-- Functions
+- Basics
     - Data types
         - Variables
             - store data
@@ -70,4 +70,43 @@
             - ++ (--)
             - += (-=)
             - *= (/=, %=)
+    - Logical Statements
+        - if
+            - if the (statement) is true, then run the {code}
+        - else
+            - but if the previous statment was false, then run the {code}
+        - {} groups the code to run
+            - however if there are no braces, then the statment applies to the next line only.
+            - this lets us do things like this:
+                - if (statement 1) {
+                      do something;
+                  } else if (statement 2) {
+                      do something else;
+                  } else {
+                      finally do last thing;
+                  }
     - Loops
+        - while loop
+            - break
+            - continue
+            - do while
+        - for loop
+            - similar but used more to increment
+            - run order:
+                - for ( 1. this runs first; 
+                        1. if this part is true, run code, else break; 
+                        2. run this then repeat 2nd statement) {
+                   }
+    - Arrays
+        - used for storing a series (or set) of numbers
+            - ex. [0, 1, 2, 3, 4, 5]
+            - ex. [4, 2, 7, 6, 2, 7, 9, 8]
+        - index an element of the array with []
+            - ex. array_variable[0]
+                - returns the first element of the array
+            - ex. array_variable[5]
+                - returns the 6th element of the array
+        - for loops are useful
+            - go through each element of an array easily
+    - Pointers
+        - 
